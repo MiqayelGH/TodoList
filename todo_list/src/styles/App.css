@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.App{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.ListBlock {
+    background-color: rgb(241, 213, 142);
+    padding: 15px;
+    
+}
+.ListBlock h1 {
+    text-align: center;
+    color: rgb(56, 51, 51);
+}
+.ListItem {
+    margin: 0 10px 10px 0;
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+}
+.List__header div {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.List__buttons button {
+    padding: 5px;
+    border-radius: 8px;
+}

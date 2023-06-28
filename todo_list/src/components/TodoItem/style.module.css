@@ -1,0 +1,57 @@
+.todo_item{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+  background-color: aliceblue; 
+  padding: 5px;
+  min-height: 90px;
+  width: 100%; 
+}
+.todo_header{
+  font-size: large;
+  display: flex;
+  flex-direction: column;
+}
+.todo_title{
+    overflow: hidden
+}
+.buttons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 2px;
+}
+.delete_btn {
+    border-radius: 5px;
+    width: 60px;
+    background-color: rgb(152, 1, 1);
+    padding: 5px;
+    color: aliceblue;
+}
+.edit_btn {
+    border-radius: 5px;
+    width: 60px;
+    background-color: rgb(255, 149, 0);
+    padding: 5px;
+}
+.update_btn {
+    border-radius: 5px;
+    background-color: rgb(255, 195, 111);
+    padding: 5px;
+    width: 60px;
+}
+.not_completed {
+    border-radius: 5px;
+    width: 110px;
+    padding: 5px;
+    border: 2px solid rgb(80, 0, 0);
+    background-color: rgb(220, 49, 49);
+    color: white;
+}
+.completed {
+    border-radius: 5px;
+    width: 110px;
+    background-color: rgb(49, 220, 49);
+    padding: 5px;
+    border: 2px solid green;
+}

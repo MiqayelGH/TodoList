@@ -1,0 +1,13 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.App {
+    background-color: rgba(106, 135, 222, 0.69);
+    padding: 20px;
+    margin: 3rem auto;
+    width: 24rem;
+    display: grid;
+}

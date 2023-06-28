@@ -1,0 +1,5 @@
+.button {
+    width: 5rem;
+    margin-right: 0;
+    margin-left: calc(100% - 5rem);
+}

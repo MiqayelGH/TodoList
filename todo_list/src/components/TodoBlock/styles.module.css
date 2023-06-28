@@ -1,0 +1,12 @@
+.todo_block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.list_header{
+    font-size: 30px;
+    margin: 6px;
+    font-family: sans-serif;
+}
